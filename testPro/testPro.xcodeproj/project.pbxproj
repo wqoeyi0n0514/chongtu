@@ -11,21 +11,21 @@
 		1BBC5932C6F7A5E15F0C1868B596DAD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088A82E183593F18F790EEDFD1AFB6A7 /* LaunchScreen.storyboard */; };
 		3FD6E6EB0986954D59AC66763F1AE312 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A0EB3750CD05E26CBFF16DDA55E8DC /* Main.storyboard */; };
 		4147453FC2BD01BABBB70DCE23D6E73F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD4C3AE714D9C6341DD190C901034A6 /* AppDelegate.m */; };
+		483CD1E4F47325C7678BAEC0B2D164FE /* BBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33296611ACB62874A1A4B00E94637ED2 /* BBViewController.m */; };
 		669CB49D46F35311315B4EB63A32E390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BB1E13A87E43F9ED7AFEE2BD5B0FFB /* Assets.xcassets */; };
-		88A8AF5E1F00EF75004F4FA9 /* BBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A8AF5D1F00EF75004F4FA9 /* BBViewController.m */; };
 		AEDF555342552B62E713EEEF920BDEE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF53A9E14E0A8B4786AD98CFCB2C9063 /* main.m */; };
 		D33F5A6312B99BD26BD69BA2A587F83E /* sslViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEB32E772ECC31303C2849272040334 /* sslViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0064D8F9E2D0657D0784EF67B8475AF0 /* BBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBViewController.h; sourceTree = "<group>"; };
 		0926884BE185AE35F1A2DE102357ACB8 /* testPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FD4C3AE714D9C6341DD190C901034A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33296611ACB62874A1A4B00E94637ED2 /* BBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBViewController.m; sourceTree = "<group>"; };
 		39EA3E5F6ACEB50AC92AA877C0CF33D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3E7B15E8B2FC683EDCEA3B31E35B9A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4753FC0AF38F77DCCF8CB590E5E2C5C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		727AD30EC59D840A4BECB5083FAB68CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		88A8AF5C1F00EF75004F4FA9 /* BBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBViewController.h; sourceTree = "<group>"; };
-		88A8AF5D1F00EF75004F4FA9 /* BBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBViewController.m; sourceTree = "<group>"; };
 		96CA0D2FA8702E235A877EE0386DDAAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8BB1E13A87E43F9ED7AFEE2BD5B0FFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF53A9E14E0A8B4786AD98CFCB2C9063 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -61,6 +61,8 @@
 				727AD30EC59D840A4BECB5083FAB68CD /* AppDelegate.h */,
 				0FD4C3AE714D9C6341DD190C901034A6 /* AppDelegate.m */,
 				A8BB1E13A87E43F9ED7AFEE2BD5B0FFB /* Assets.xcassets */,
+				0064D8F9E2D0657D0784EF67B8475AF0 /* BBViewController.h */,
+				33296611ACB62874A1A4B00E94637ED2 /* BBViewController.m */,
 				3E7B15E8B2FC683EDCEA3B31E35B9A18 /* Info.plist */,
 				088A82E183593F18F790EEDFD1AFB6A7 /* LaunchScreen.storyboard */,
 				26A0EB3750CD05E26CBFF16DDA55E8DC /* Main.storyboard */,
@@ -69,8 +71,6 @@
 				39EA3E5F6ACEB50AC92AA877C0CF33D6 /* ViewController.m */,
 				C646B59E6410E29CC95F31F340D55E43 /* sslViewController.h */,
 				BDEB32E772ECC31303C2849272040334 /* sslViewController.m */,
-				88A8AF5C1F00EF75004F4FA9 /* BBViewController.h */,
-				88A8AF5D1F00EF75004F4FA9 /* BBViewController.m */,
 			);
 			path = testPro;
 			sourceTree = "<group>";
@@ -164,8 +164,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4147453FC2BD01BABBB70DCE23D6E73F /* AppDelegate.m in Sources */,
+				483CD1E4F47325C7678BAEC0B2D164FE /* BBViewController.m in Sources */,
 				132D4A586EF13D12F29BFBD5BFAC281D /* ViewController.m in Sources */,
-				88A8AF5E1F00EF75004F4FA9 /* BBViewController.m in Sources */,
 				AEDF555342552B62E713EEEF920BDEE5 /* main.m in Sources */,
 				D33F5A6312B99BD26BD69BA2A587F83E /* sslViewController.m in Sources */,
 			);
