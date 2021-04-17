@@ -26,6 +26,7 @@
 		88A8AF4A1F00E3F7004F4FA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88A8AF4D1F00E3F7004F4FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88A8AF4F1F00E3F7004F4FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68443841F00E81B00BC0F81 /* TestHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 				88A8AF421F00E3F7004F4FA9 /* AppDelegate.m */,
 				88A8AF441F00E3F7004F4FA9 /* ViewController.h */,
 				88A8AF451F00E3F7004F4FA9 /* ViewController.m */,
+				D68443841F00E81B00BC0F81 /* TestHeader.h */,
 				88A8AF471F00E3F7004F4FA9 /* Main.storyboard */,
 				88A8AF4A1F00E3F7004F4FA9 /* Assets.xcassets */,
 				88A8AF4C1F00E3F7004F4FA9 /* LaunchScreen.storyboard */,
@@ -314,6 +316,7 @@
 				88A8AF541F00E3F7004F4FA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
