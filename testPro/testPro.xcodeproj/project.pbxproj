@@ -14,6 +14,7 @@
 		669CB49D46F35311315B4EB63A32E390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BB1E13A87E43F9ED7AFEE2BD5B0FFB /* Assets.xcassets */; };
 		AEDF555342552B62E713EEEF920BDEE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF53A9E14E0A8B4786AD98CFCB2C9063 /* main.m */; };
 		D33F5A6312B99BD26BD69BA2A587F83E /* sslViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEB32E772ECC31303C2849272040334 /* sslViewController.m */; };
+		D684438A1F00EF3000BC0F81 /* AAView.m in Sources */ = {isa = PBXBuildFile; fileRef = D68443891F00EF3000BC0F81 /* AAView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		AF53A9E14E0A8B4786AD98CFCB2C9063 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BDEB32E772ECC31303C2849272040334 /* sslViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sslViewController.m; sourceTree = "<group>"; };
 		C646B59E6410E29CC95F31F340D55E43 /* sslViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sslViewController.h; sourceTree = "<group>"; };
+		D68443881F00EF3000BC0F81 /* AAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAView.h; sourceTree = "<group>"; };
+		D68443891F00EF3000BC0F81 /* AAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAView.m; sourceTree = "<group>"; };
 		FBBB111A1CF03B2742A6AC4DD8397220 /* TestHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestHeader.h; sourceTree = "<group>"; };
 		FD509B9921D2DB2ED7AF48EB1046B24A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +69,8 @@
 				39EA3E5F6ACEB50AC92AA877C0CF33D6 /* ViewController.m */,
 				C646B59E6410E29CC95F31F340D55E43 /* sslViewController.h */,
 				BDEB32E772ECC31303C2849272040334 /* sslViewController.m */,
+				D68443881F00EF3000BC0F81 /* AAView.h */,
+				D68443891F00EF3000BC0F81 /* AAView.m */,
 			);
 			path = testPro;
 			sourceTree = "<group>";
@@ -162,6 +167,7 @@
 				132D4A586EF13D12F29BFBD5BFAC281D /* ViewController.m in Sources */,
 				AEDF555342552B62E713EEEF920BDEE5 /* main.m in Sources */,
 				D33F5A6312B99BD26BD69BA2A587F83E /* sslViewController.m in Sources */,
+				D684438A1F00EF3000BC0F81 /* AAView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
